@@ -1,13 +1,11 @@
-import hashlib
 import os
 from pathlib import Path
-import base64
 from tqdm import tqdm
 from shutil import copy
 
 SRC_DIR = "/home/suehyun/datasets/wmt-decoded"
 DEST_DIR = "/home/suehyun/datasets/wmt-splits"
-REF_DIR = "./splits"
+REF_DIR = "./splits/wmt"
 
 def print_title(title: str):
     print("=" * 80)
